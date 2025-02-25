@@ -1,3 +1,5 @@
+@use '../styles/ai-chat-widget';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,3 +21,5 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@include ai-chat-widget.render();

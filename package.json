@@ -6,19 +6,23 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:scss:dev": "sass --no-source-map styles/ai-widget.build.scss:styles/ai-widget.css",
+    "build:scss": "sass --no-source-map --style=compressed styles/ai-widget.build.scss:styles/ai-widget.css"
   },
   "dependencies": {
+    "next": "15.1.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@matteusan/sentro": "^1.1.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "sass": "^1.83.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

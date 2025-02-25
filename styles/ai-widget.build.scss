@@ -1,0 +1,3 @@
+@use './ai-chat-widget';
+
+@include ai-chat-widget.render();
