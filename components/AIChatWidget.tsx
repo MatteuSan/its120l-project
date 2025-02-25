@@ -63,19 +63,19 @@ const AIChatWidget: React.FC<AIChatWidgetProps> = () => {
             </AIChatBubble>
             <AIChatBubble type="scrollable">
               <AIResult link="#" title="Item 1" subtitle="Subtitle 1" media={SampleDress} mediaAlt="Item 1 Photo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ex fugit quasi suscipit ullam.
               </AIResult>
               <AIResult link="#" title="Item 1" subtitle="Subtitle 1" media={SampleDress} mediaAlt="Item 1 Photo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ex fugit quasi suscipit ullam.
               </AIResult>
               <AIResult link="#" title="Item 1" subtitle="Subtitle 1" media={SampleDress} mediaAlt="Item 1 Photo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ex fugit quasi suscipit ullam.
               </AIResult>
               <AIResult link="#" title="Item 1" subtitle="Subtitle 1" media={SampleDress} mediaAlt="Item 1 Photo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ex fugit quasi suscipit ullam.
               </AIResult>
               <AIResult link="#" title="Item 1" subtitle="Subtitle 1" media={SampleDress} mediaAlt="Item 1 Photo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ex fugit quasi suscipit ullam.
               </AIResult>
             </AIChatBubble>
             <AIPill isThinking>
